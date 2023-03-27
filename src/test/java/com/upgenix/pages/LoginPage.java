@@ -22,4 +22,10 @@ public class LoginPage {
 
     @FindBy(xpath = "//p")
     public WebElement wrongLoginPasswordMessage;
+
+    @FindBy(xpath = "//b[.='Sign in']")
+    public WebElement signinBtn;
+
+    @FindBy(xpath = "//span[.='POSManager45']")
+    public WebElement POSManager45;
 }

@@ -14,7 +14,7 @@ public class InboxPage {
     @FindBy(xpath = "//span[@class='oe_topbar_name']")
     public WebElement profile;
 
-    @FindBy(xpath = "//ul[@role='menu']/li[6]/a")
+    @FindBy(xpath = "//a[.='Log out']")
     public WebElement logoutButton;
 
     @FindBy(xpath = "//div[@class='o_dialog_warning modal-body']")
